@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>FizzBuzz Game</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <script type="text/javascript" src="./javascript.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=PT+Serif&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 class="indices" id="headtext">FizzBuzz Simulator</h1>
+            <h2 class="indices" id="summary">FizzBuzz é um jogo de palavras cujo intuito é ensinar crianças sobre divisão.</h2>
+        </div>
+         <br/>
+        <p id="explanation"> Os jogadores se revezam para contar de forma incremental, substituindo qualquer número divisível por três pela palavra "Fizz" e qualquer número divisível por cinco pela palavra "Buzz" e, se um número é divisível tanto por três quanto por cinco, substitui pela palavra "FizzBuzz".</p> <hr/>
+        
+        <div class="form-wrapper" style="text-align: center;">
+            <input type="text" id="input1" placeholder="Escolha a quantidade de números"/>
+            <input type="text" id="input2" placeholder="Primeiro divisor"/>
+            <input type="text" id="input3" placeholder="Segundo divisor"/>
+            <button onclick="contar()" id="btn1">Contar</button>
+        </div>
+        
+        <div id="error"></div>
+        
+        <div id="list-wrapper">
+            <ol id="contagem">
+
+            </ol>
+
+        </div> 
+    </body>
+</html>

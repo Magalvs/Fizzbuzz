@@ -1,0 +1,119 @@
+body {
+    position: absolute;
+    background-color: beige;
+    position: absolute;
+    padding: 15px;
+}
+
+.indices {
+    color: #023047;
+    text-align: center;
+}
+
+#headtext {
+    position: relative;
+    font-family: "playfair display", t ;
+    color: rgb(9, 23, 36);
+}
+
+.header {
+    box-shadow: 10px 10px #284b63;
+    width: 100%;
+    border: 2px solid #003566;
+    background: linear-gradient(#33ccff, #ff99cc)
+}
+
+#explanation {
+    position: relative;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-wrapper {
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.form-wrapper input {
+    text-align: center;
+    font-size: 15px;
+    font-family: "PT Serif", serif;
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(to top right,#02c39a, #1b4332);
+    border-image-slice: 1;
+    background-color: #252323;
+    height: 30px;
+}
+
+#input1 { 
+    width: 230px;
+}
+
+#input2 { 
+    width: 110px;
+}
+
+#input3 { 
+    width: 110px;
+}
+
+::placeholder {
+    color: antiquewhite;
+}
+
+input[type="text"] {
+    caret-color: rgb(0, 132, 255);
+    color: antiquewhite;
+}
+
+#btn1 {
+    margin: 15px;
+    width: 120px;
+    height: 40px;
+    background-color: #252323;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: antiquewhite;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(to top right,#02c39a, #1b4332);
+    border-image-slice: 1;
+
+}
+
+#btn1:hover {
+    transition: 150ms;
+    scale: 105%;
+    box-shadow: 7px 7px #838a8f;
+}
+
+#btn1:active {
+    scale: 90%;
+}
+
+#error {
+    margin: -50px 350px;
+    width: 250px;
+    background-color: transparent;
+    text-align: center;
+    color: red;
+}
+
+ul {
+    width: 100%;
+    height: 200px;
+}
+
+li {
+    display:inline-block;
+    margin:1%;
+    width:17%;
+    height:30%;
+}
+
